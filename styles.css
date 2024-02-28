@@ -1,0 +1,530 @@
+body{
+    font-family: "Playfair Display", sans-serif;
+    background-color: transparent;
+    color: #000000;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    
+    }
+
+
+ul {
+   list-style: none;
+   padding: 0px;
+}
+
+li {
+    float: left;
+    padding: 4px;+
+    color: #000000;
+}
+
+
+li a {
+  text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    display: inline;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+    background-color:rgb(190, 175, 175);
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: #56cad4;
+  text-decoration-thickness: 3px ;
+
+}
+
+
+header { 
+background-color: #ffffff;
+margin: 0px;
+min-height: 50px;
+height: auto;
+overflow: hidden;
+list-style: none;
+position: fixed;
+width: 100%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+z-index: 2;
+
+}
+
+
+
+.parallax {
+    background-image: url(https://media.istockphoto.com/id/588989666/vector/palm-leaves-seamless-pattern-background.jpg?s=2048x2048&w=is&k=20&c=JFUi8RerVR2oJg_o8ezzD8xUm9cVYPvskdlgvDvDNq0=);
+    height: 1000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#Title {
+    text-align: center;
+    color: black;
+    padding-top: 300px;
+    font-size: 10vw;
+}
+    
+.parallax2 {
+    background-image: url(https://media.istockphoto.com/id/588989666/vector/palm-leaves-seamless-pattern-background.jpg?s=2048x2048&w=is&k=20&c=JFUi8RerVR2oJg_o8ezzD8xUm9cVYPvskdlgvDvDNq0=) ;
+    height: 1000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.parallax3 {
+    background-image: url(/Images/pine-watt-2Hzmz15wGik-unsplash.jpg) ;
+    height: 1000px;
+    width: 200px;
+    
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.parallax4 {
+    background-image: url(/Images/george-bakos-dNIGgfmeWHM-unsplash.jpg) ;
+    height: 1000px;
+    width: 200px;
+    margin-left: 900px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.multiparalax {
+    height:1000px;
+    background-color:rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.multiparalax img {
+    width: 300px;
+    height: 600px;
+}
+
+
+.content1 {
+    height: 800px;
+    background-color:rgb(255, 255, 255);
+    font-size:20px;
+    margin: 0px;
+    padding: 60px;
+    text-align: right;
+    text-align: center;
+}
+
+.text1 {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    position:relative;
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0px;
+    
+}
+
+
+.content1 img {
+    height: 600px;
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+    padding: 0px;
+    margin:0px
+}
+
+.content2{
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    font-size:36px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    
+    
+}
+
+.abmark {
+color: transparent;
+
+}
+.about {
+    height: 800px;
+    width: 700px;
+    background-color:rgb(255, 255, 255);
+    font-size:20px;
+    margin: 0px;
+    padding: 60px;
+    text-align: right;
+    text-align: center;
+    
+}
+
+.about h1 {
+  font-size: 40px;
+}
+
+.pfp {
+  margin-top: 70px;
+  height: 100px;
+  float: left;
+  border-radius: 50px;
+}
+.abtext {
+  margin-top: 200px;
+  width: 700;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  display: inline-block;
+  width: 33.33;
+  padding: 5px;
+  margin: 0px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.contact{
+    height:1000px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    font-size:36px;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+
+
+footer {
+    background-color: rgb(82, 82, 82);
+    height: 200px;
+    width: 100%;
+    overflow: hidden; 
+    text-align: center;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   
+}
+
+.con {
+  color: transparent;
+
+}
+
+.contact h1 { 
+background-color: #cacaca;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+span {
+   display: block;
+}
+
+footer div {
+    display: inline-block;
+    padding: 40px;
+    padding-top: 10px;
+    margin-top: 20px ;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type=submit] {
+    background-color: #cacaca;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    background-color: #56cad4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+  }
+
+  .column {
+    width: 10%;
+    padding: 130px;
+  }
+
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 2px #56cad4 ;
+  display: inline-block;
+  height: 500px;
+  width: 250px;
+}
+
+
+.card p{
+  background-color: transparent;
+  font-size: 19px;
+  height: 100px;
+  padding-top: 20px;
+  margin-top: 0px;
+ 
+  
+}
+
+.card h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+ 
+}
+
+.price p {
+  color: #000000;
+  background-color: transparent;
+  padding-top: 5px;
+  margin-top: 170px;
+  margin-right: 190px;
+  height: 40px;
+  background-color: #56cad4;
+  border: solid 2px;
+  width: 4em;
+  text-align: center;
+  
+ 
+ 
+}
+
+#pg {
+  color: #ffffff;
+}
+
+.dropbtn {
+  background-color: #56cad4;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 600px;
+  position:initial;
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: static;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 600px;
+  text-align: center;
+  
+}
+
+.scrollbar {
+  height: 500px;
+  overflow-y: scroll;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cacaca;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #397c81;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #397c81;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div .desc1 {
+  padding: 0px;
+  background-color: transparent
+  
+}
+
+div .time { 
+  text-align: center;
+  text-decoration-line: underline;  
+  height: 20px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 920px) {
+
+
+ .text1 {
+    margin-top: 120px;
+    text-align: center;
+    height: 200PX;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    
+
+ }
+
+ .content1 img {
+    width: 400px;
+    height: 400px;
+    margin-left: 0px;
+    padding: 0px;
+   
+ }
+
+
+@media screen and (max-width: 760px) {
+  
+  .column {
+    width: 15%;
+    display: block;
+    margin-bottom: 20px;
+    }
+
+    .content1 img {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        padding: 0px;
+  }
+    
+    .dropdown-content { 
+     width: auto ;
+     scale: 80% ;
+    }
+
+    .dropbtn {
+      width: auto;
+    }
+
+
+
+  .text1 {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    height: 200PX;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+  } 
+  .content1 {
+    height: 500px
+  }
+
+  #title {
+    font-size: 50px;
+  }
+
+  } 
+
+  @media screen and (max-width: 400px) {
+    .dropdown-content { 
+      width: 250px;
+      scale: 50%;
+      
+     }
+
+
+  }
+
+
+}
